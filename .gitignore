@@ -1,0 +1,9 @@
+# IDEs
+.idea/
+.vscode/
+
+# Flask
+instance/
+
+# Python
+__pycache__/
