@@ -44,3 +44,17 @@
    flask --app app run
    ```
 
+### Deploying to Production (Docker)
+
+1. Build the Docker image
+
+   ```
+   docker build -t the_book_of_answers_api .
+   ```
+
+2. Run the Docker container
+
+   ```
+    docker run -d -p 8218:8000 the_book_of_answers_api
+    ```
+
