@@ -24,7 +24,6 @@ def create_app(test_config=None):
     from app import extensions as ext
     ext.db.init_app(app)
     ext.api.init_app(app)
-    ext.jwt.init_app(app)
 
     with app.app_context():
         from app import models, data_helper
